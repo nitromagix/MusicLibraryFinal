@@ -31,7 +31,7 @@ function ArtistView() {
          setArtistData(responseData.results);
       };
       fetchData();
-   }, [id]);
+   });
 
    return (
       <div>
